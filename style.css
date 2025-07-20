@@ -1,0 +1,92 @@
+/* Estilos globais */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('MONEEY.png') center/cover no-repeat;
+    color: #004d25;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Seção principal */
+.moneybox-tela {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.conteudo {
+    text-align: center;
+    background-color: rgba(123, 207, 144, 0.801); /* Fundo verde escuro translúcido */
+    padding: 20px;
+    border-radius: 15px; /* Arredondar as 4 pontas */
+    width: 90%;
+    max-width: 400px;
+    color: #174413;
+}
+
+/* Logotipo */
+.logo img {
+    width: 210px;
+    margin-bottom: 15px;
+}
+
+/* Título */
+h1 {
+    font-size: 1.8em;
+    font-weight: bold;
+    margin: 19;
+}
+
+/* Slogan */
+.slogan {
+    font-size: 1rem;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+/* Lista de benefícios */
+.beneficios {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px 0;
+}
+
+.beneficios li {
+    margin: 7px 0;
+    font-size: 2cap;
+    color: #000000;
+}
+
+/* Botão Criar Conta */
+.btn-criar-conta {
+    background-color: #00693e;
+    color: #000000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px; /* Bordas arredondadas */
+    cursor: pointer;
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.btn-criar-conta:hover {
+    background-color: #004d25;
+}
+
+/* Link de cadastro */
+.cadastro {
+    font-size: 1em;
+}
+
+.cadastro a {
+    color: #dadddb;
+    text-decoration: none;
+}
+
+.cadastro a:hover {
+    text-decoration: underline;
+}
